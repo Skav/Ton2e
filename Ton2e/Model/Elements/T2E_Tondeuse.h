@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <T2E_GameElement.h>
+#import "T2E_GameElement.h"
 
 @interface T2E_Tondeuse : T2E_GameElement
 

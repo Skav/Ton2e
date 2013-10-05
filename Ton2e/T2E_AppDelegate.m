@@ -7,15 +7,28 @@
 //
 
 #import "T2E_AppDelegate.h"
-
+#import "DDLog.h"
+#import "DDASLLogger.h"
+#import "DDTTYLogger.h"
 @implementation T2E_AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Override point for customization after application launch.
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    DDLogCVerbose(@"%@",@"Test vstring");
+    DDLogInfo(@"%@",@"Test istring");
+    DDLogCWarn(@"%@",@"Test wstring");
+    DDLogCError(@"%@",@"Test estring");
     return YES;
 }
 

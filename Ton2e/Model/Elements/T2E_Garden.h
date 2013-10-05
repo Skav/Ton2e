@@ -10,13 +10,16 @@
 #import "T2E_GameElement.h"
 
 @interface T2E_Garden : T2E_GameElement{
-    NSUInteger iWidth;
-    NSUInteger iHeight;
+    NSInteger iWidth;
+    NSInteger iHeight;
 }
 
-@property (assign) NSUInteger iWidth;
-@property (assign) NSUInteger iHeight;
+@property (assign) NSInteger iWidth;
+@property (assign) NSInteger iHeight;
 
+#pragma mark Creator
++ (T2E_Garden *) GardenWithWidth:(NSInteger)iWidth andHeight:(NSInteger)iHeight;
 
-+ (T2E_Garden *) createGardenWithWidth:(NSUInteger)iWidth andHeight:(NSUInteger)iHeight;
+#pragma mark Constructor
+- (instancetype) initWithWidth:(NSInteger)_iWidth andHeight:(NSInteger)_iHeight;
 @end
