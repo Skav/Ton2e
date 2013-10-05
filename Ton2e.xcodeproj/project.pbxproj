@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2703352417F7538100B42F2C /* T2E_Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703352317F7538100B42F2C /* T2E_Order.m */; };
+		2703352617FDF72400B42F2C /* pom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2703352517FDF72400B42F2C /* pom.xml */; };
+		2703352817FDF73900B42F2C /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 2703352717FDF73900B42F2C /* sonar-project.properties */; };
+		2703353B17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703352C17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m */; };
+		2703353C17FDFBA000B42F2C /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703352E17FDFBA000B42F2C /* DDASLLogger.m */; };
+		2703353D17FDFBA000B42F2C /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703353017FDFBA000B42F2C /* DDFileLogger.m */; };
+		2703353E17FDFBA000B42F2C /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703353217FDFBA000B42F2C /* DDLog.m */; };
+		2703353F17FDFBA000B42F2C /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703353417FDFBA000B42F2C /* DDTTYLogger.m */; };
+		2703354017FDFBA000B42F2C /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703353717FDFBA000B42F2C /* ContextFilterLogFormatter.m */; };
+		2703354117FDFBA000B42F2C /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703353917FDFBA000B42F2C /* DispatchQueueLogFormatter.m */; };
+		2703354217FDFBA000B42F2C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2703353A17FDFBA000B42F2C /* README.txt */; };
+		2703354717FE985500B42F2C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2703354617FE985500B42F2C /* SenTestingKit.framework */; };
+		27805C381800700C00CBBC93 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 27805C371800700C00CBBC93 /* .gitignore */; };
 		2780809117F7411800992EAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2780809017F7411800992EAF /* Foundation.framework */; };
 		2780809317F7411800992EAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2780809217F7411800992EAF /* CoreGraphics.framework */; };
 		2780809517F7411800992EAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2780809417F7411800992EAF /* UIKit.framework */; };
@@ -19,6 +32,11 @@
 		278080AC17F7411900992EAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2780809417F7411800992EAF /* UIKit.framework */; };
 		278080B417F7411900992EAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 278080B217F7411900992EAF /* InfoPlist.strings */; };
 		278080B617F7411900992EAF /* Ton2eTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080B517F7411900992EAF /* Ton2eTests.m */; };
+		278080D117F74ED100992EAF /* T2E_TestGarden.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080D017F74ED100992EAF /* T2E_TestGarden.m */; };
+		278080D917F7501A00992EAF /* T2E_Garden.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080D417F7501A00992EAF /* T2E_Garden.m */; };
+		278080DB17F7501A00992EAF /* T2E_Tondeuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080D817F7501A00992EAF /* T2E_Tondeuse.m */; };
+		278080DE17F7505200992EAF /* T2E_GameElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080DD17F7505200992EAF /* T2E_GameElement.m */; };
+		278080E217F752A700992EAF /* T2E_GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080E117F752A700992EAF /* T2E_GameManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +50,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2703352217F7538100B42F2C /* T2E_Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_Order.h; sourceTree = "<group>"; };
+		2703352317F7538100B42F2C /* T2E_Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_Order.m; sourceTree = "<group>"; };
+		2703352517FDF72400B42F2C /* pom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
+		2703352717FDF73900B42F2C /* sonar-project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
+		2703352B17FDFBA000B42F2C /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		2703352C17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		2703352D17FDFBA000B42F2C /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		2703352E17FDFBA000B42F2C /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		2703352F17FDFBA000B42F2C /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		2703353017FDFBA000B42F2C /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		2703353117FDFBA000B42F2C /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		2703353217FDFBA000B42F2C /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		2703353317FDFBA000B42F2C /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		2703353417FDFBA000B42F2C /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		2703353617FDFBA000B42F2C /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		2703353717FDFBA000B42F2C /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		2703353817FDFBA000B42F2C /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		2703353917FDFBA000B42F2C /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		2703353A17FDFBA000B42F2C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2703354617FE985500B42F2C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		27805C371800700C00CBBC93 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2780808D17F7411800992EAF /* Ton2e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ton2e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2780809017F7411800992EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2780809217F7411800992EAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,7 +86,16 @@
 		278080A917F7411900992EAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		278080B117F7411900992EAF /* Ton2eTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ton2eTests-Info.plist"; sourceTree = "<group>"; };
 		278080B317F7411900992EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		278080B517F7411900992EAF /* Ton2eTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton2eTests.m; sourceTree = "<group>"; };
+		278080B517F7411900992EAF /* Ton2eTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Ton2eTests.m; path = ../Ton2eTests.m; sourceTree = "<group>"; };
+		278080D017F74ED100992EAF /* T2E_TestGarden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_TestGarden.m; sourceTree = "<group>"; };
+		278080D317F7501A00992EAF /* T2E_Garden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_Garden.h; sourceTree = "<group>"; };
+		278080D417F7501A00992EAF /* T2E_Garden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_Garden.m; sourceTree = "<group>"; };
+		278080D717F7501A00992EAF /* T2E_Tondeuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_Tondeuse.h; sourceTree = "<group>"; };
+		278080D817F7501A00992EAF /* T2E_Tondeuse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_Tondeuse.m; sourceTree = "<group>"; };
+		278080DC17F7505200992EAF /* T2E_GameElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_GameElement.h; sourceTree = "<group>"; };
+		278080DD17F7505200992EAF /* T2E_GameElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_GameElement.m; sourceTree = "<group>"; };
+		278080E017F752A700992EAF /* T2E_GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_GameManager.h; sourceTree = "<group>"; };
+		278080E117F752A700992EAF /* T2E_GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_GameManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2703354717FE985500B42F2C /* SenTestingKit.framework in Frameworks */,
 				278080AA17F7411900992EAF /* XCTest.framework in Frameworks */,
 				278080AC17F7411900992EAF /* UIKit.framework in Frameworks */,
 				278080AB17F7411900992EAF /* Foundation.framework in Frameworks */,
@@ -74,9 +123,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2703352917FDFB4E00B42F2C /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				2703352A17FDFBA000B42F2C /* Lumberjack */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		2703352A17FDFBA000B42F2C /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				2703352B17FDFBA000B42F2C /* DDAbstractDatabaseLogger.h */,
+				2703352C17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m */,
+				2703352D17FDFBA000B42F2C /* DDASLLogger.h */,
+				2703352E17FDFBA000B42F2C /* DDASLLogger.m */,
+				2703352F17FDFBA000B42F2C /* DDFileLogger.h */,
+				2703353017FDFBA000B42F2C /* DDFileLogger.m */,
+				2703353117FDFBA000B42F2C /* DDLog.h */,
+				2703353217FDFBA000B42F2C /* DDLog.m */,
+				2703353317FDFBA000B42F2C /* DDTTYLogger.h */,
+				2703353417FDFBA000B42F2C /* DDTTYLogger.m */,
+				2703353517FDFBA000B42F2C /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		2703353517FDFBA000B42F2C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2703353617FDFBA000B42F2C /* ContextFilterLogFormatter.h */,
+				2703353717FDFBA000B42F2C /* ContextFilterLogFormatter.m */,
+				2703353817FDFBA000B42F2C /* DispatchQueueLogFormatter.h */,
+				2703353917FDFBA000B42F2C /* DispatchQueueLogFormatter.m */,
+				2703353A17FDFBA000B42F2C /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2780808417F7411800992EAF = {
 			isa = PBXGroup;
 			children = (
+				27805C371800700C00CBBC93 /* .gitignore */,
+				2703352517FDF72400B42F2C /* pom.xml */,
+				2703352717FDF73900B42F2C /* sonar-project.properties */,
 				2780809617F7411800992EAF /* Ton2e */,
 				278080AF17F7411900992EAF /* Ton2eTests */,
 				2780808F17F7411800992EAF /* Frameworks */,
@@ -96,6 +186,7 @@
 		2780808F17F7411800992EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2703354617FE985500B42F2C /* SenTestingKit.framework */,
 				2780809017F7411800992EAF /* Foundation.framework */,
 				2780809217F7411800992EAF /* CoreGraphics.framework */,
 				2780809417F7411800992EAF /* UIKit.framework */,
@@ -107,6 +198,8 @@
 		2780809617F7411800992EAF /* Ton2e */ = {
 			isa = PBXGroup;
 			children = (
+				2703352917FDFB4E00B42F2C /* Logger */,
+				278080C317F74AC500992EAF /* Model */,
 				2780809F17F7411800992EAF /* T2E_AppDelegate.h */,
 				278080A017F7411800992EAF /* T2E_AppDelegate.m */,
 				278080A217F7411800992EAF /* Images.xcassets */,
@@ -129,7 +222,7 @@
 		278080AF17F7411900992EAF /* Ton2eTests */ = {
 			isa = PBXGroup;
 			children = (
-				278080B517F7411900992EAF /* Ton2eTests.m */,
+				278080CF17F74E7400992EAF /* ModelTest */,
 				278080B017F7411900992EAF /* Supporting Files */,
 			);
 			path = Ton2eTests;
@@ -142,6 +235,48 @@
 				278080B217F7411900992EAF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278080C317F74AC500992EAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				278080DF17F750A200992EAF /* Action */,
+				278080D217F74FCE00992EAF /* Elements */,
+				278080DC17F7505200992EAF /* T2E_GameElement.h */,
+				278080DD17F7505200992EAF /* T2E_GameElement.m */,
+				278080E017F752A700992EAF /* T2E_GameManager.h */,
+				278080E117F752A700992EAF /* T2E_GameManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		278080CF17F74E7400992EAF /* ModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				278080D017F74ED100992EAF /* T2E_TestGarden.m */,
+				278080B517F7411900992EAF /* Ton2eTests.m */,
+			);
+			path = ModelTest;
+			sourceTree = "<group>";
+		};
+		278080D217F74FCE00992EAF /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				278080D317F7501A00992EAF /* T2E_Garden.h */,
+				278080D417F7501A00992EAF /* T2E_Garden.m */,
+				278080D717F7501A00992EAF /* T2E_Tondeuse.h */,
+				278080D817F7501A00992EAF /* T2E_Tondeuse.m */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		278080DF17F750A200992EAF /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				2703352217F7538100B42F2C /* T2E_Order.h */,
+				2703352317F7538100B42F2C /* T2E_Order.m */,
+			);
+			path = Action;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +355,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2703352617FDF72400B42F2C /* pom.xml in Resources */,
 				2780809B17F7411800992EAF /* InfoPlist.strings in Resources */,
+				2703352817FDF73900B42F2C /* sonar-project.properties in Resources */,
 				278080A317F7411800992EAF /* Images.xcassets in Resources */,
+				27805C381800700C00CBBC93 /* .gitignore in Resources */,
+				2703354217FDFBA000B42F2C /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +379,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2703352417F7538100B42F2C /* T2E_Order.m in Sources */,
 				278080A117F7411800992EAF /* T2E_AppDelegate.m in Sources */,
+				278080D917F7501A00992EAF /* T2E_Garden.m in Sources */,
 				2780809D17F7411800992EAF /* main.m in Sources */,
+				278080DE17F7505200992EAF /* T2E_GameElement.m in Sources */,
+				2703353E17FDFBA000B42F2C /* DDLog.m in Sources */,
+				2703353C17FDFBA000B42F2C /* DDASLLogger.m in Sources */,
+				278080E217F752A700992EAF /* T2E_GameManager.m in Sources */,
+				2703353B17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m in Sources */,
+				2703354017FDFBA000B42F2C /* ContextFilterLogFormatter.m in Sources */,
+				2703353F17FDFBA000B42F2C /* DDTTYLogger.m in Sources */,
+				2703354117FDFBA000B42F2C /* DispatchQueueLogFormatter.m in Sources */,
+				278080DB17F7501A00992EAF /* T2E_Tondeuse.m in Sources */,
+				2703353D17FDFBA000B42F2C /* DDFileLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278080D117F74ED100992EAF /* T2E_TestGarden.m in Sources */,
 				278080B617F7411900992EAF /* Ton2eTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +514,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ton2e/Ton2e-Prefix.pch";
 				INFOPLIST_FILE = "Ton2e/Ton2e-Info.plist";
@@ -375,6 +531,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ton2e/Ton2e-Prefix.pch";
 				INFOPLIST_FILE = "Ton2e/Ton2e-Info.plist";
@@ -444,6 +604,7 @@
 				278080BB17F7411900992EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		278080BC17F7411900992EAF /* Build configuration list for PBXNativeTarget "Ton2eTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +613,7 @@
 				278080BE17F7411900992EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
