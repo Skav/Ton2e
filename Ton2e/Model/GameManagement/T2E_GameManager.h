@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface T2E_GameManager : NSObject{
-    
+    @private
 }
-
+-(instancetype) initGameAndPlay:(NSString *)fileName;
+-(NSString *) getResults;
 @end

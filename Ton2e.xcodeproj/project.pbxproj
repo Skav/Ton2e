@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2703352417F7538100B42F2C /* T2E_Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703352317F7538100B42F2C /* T2E_Order.m */; };
 		2703352617FDF72400B42F2C /* pom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2703352517FDF72400B42F2C /* pom.xml */; };
 		2703352817FDF73900B42F2C /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 2703352717FDF73900B42F2C /* sonar-project.properties */; };
 		2703353B17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703352C17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m */; };
@@ -19,7 +18,17 @@
 		2703354117FDFBA000B42F2C /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703353917FDFBA000B42F2C /* DispatchQueueLogFormatter.m */; };
 		2703354217FDFBA000B42F2C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2703353A17FDFBA000B42F2C /* README.txt */; };
 		2703354717FE985500B42F2C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2703354617FE985500B42F2C /* SenTestingKit.framework */; };
+		271E47E6180AE036000BF022 /* T2E_TestTondeuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 271E47E5180AE036000BF022 /* T2E_TestTondeuse.m */; };
+		271E47E8180B03B0000BF022 /* TestScenario.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271E47E7180B03B0000BF022 /* TestScenario.txt */; };
+		271E47EA180B05DE000BF022 /* TestScenario.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271E47E7180B03B0000BF022 /* TestScenario.txt */; };
+		271E4830180B092A000BF022 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271E482F180B092A000BF022 /* Storyboard.storyboard */; };
+		271E4832180B0A04000BF022 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271E482F180B092A000BF022 /* Storyboard.storyboard */; };
+		271E4836180B0ABB000BF022 /* T2E_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271E4835180B0ABB000BF022 /* T2E_MainViewController.m */; };
 		27805C381800700C00CBBC93 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 27805C371800700C00CBBC93 /* .gitignore */; };
+		27805C4918018B2400CBBC93 /* T2E_GameElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 27805C4418018B2400CBBC93 /* T2E_GameElement.m */; };
+		27805C4A18018B2400CBBC93 /* T2E_GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27805C4618018B2400CBBC93 /* T2E_GameManager.m */; };
+		27805C4B18018B2400CBBC93 /* T2E_GameElementContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27805C4818018B2400CBBC93 /* T2E_GameElementContainer.m */; };
+		27805C4D1801919800CBBC93 /* T2E_TestGameContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27805C4C1801919800CBBC93 /* T2E_TestGameContainer.m */; };
 		2780809117F7411800992EAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2780809017F7411800992EAF /* Foundation.framework */; };
 		2780809317F7411800992EAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2780809217F7411800992EAF /* CoreGraphics.framework */; };
 		2780809517F7411800992EAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2780809417F7411800992EAF /* UIKit.framework */; };
@@ -35,8 +44,6 @@
 		278080D117F74ED100992EAF /* T2E_TestGarden.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080D017F74ED100992EAF /* T2E_TestGarden.m */; };
 		278080D917F7501A00992EAF /* T2E_Garden.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080D417F7501A00992EAF /* T2E_Garden.m */; };
 		278080DB17F7501A00992EAF /* T2E_Tondeuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080D817F7501A00992EAF /* T2E_Tondeuse.m */; };
-		278080DE17F7505200992EAF /* T2E_GameElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080DD17F7505200992EAF /* T2E_GameElement.m */; };
-		278080E217F752A700992EAF /* T2E_GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 278080E117F752A700992EAF /* T2E_GameManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2703352217F7538100B42F2C /* T2E_Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_Order.h; sourceTree = "<group>"; };
-		2703352317F7538100B42F2C /* T2E_Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_Order.m; sourceTree = "<group>"; };
 		2703352517FDF72400B42F2C /* pom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
 		2703352717FDF73900B42F2C /* sonar-project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
 		2703352B17FDFBA000B42F2C /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
@@ -70,7 +75,20 @@
 		2703353917FDFBA000B42F2C /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		2703353A17FDFBA000B42F2C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		2703354617FE985500B42F2C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		271E47E5180AE036000BF022 /* T2E_TestTondeuse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_TestTondeuse.m; sourceTree = "<group>"; };
+		271E47E7180B03B0000BF022 /* TestScenario.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TestScenario.txt; path = Ressources/TestScenario.txt; sourceTree = "<group>"; };
+		271E482F180B092A000BF022 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = View/Storyboard.storyboard; sourceTree = "<group>"; };
+		271E4834180B0ABB000BF022 /* T2E_MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_MainViewController.h; sourceTree = "<group>"; };
+		271E4835180B0ABB000BF022 /* T2E_MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_MainViewController.m; sourceTree = "<group>"; };
 		27805C371800700C00CBBC93 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		27805C39180161FD00CBBC93 /* T2E_GameContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T2E_GameContainer.h; sourceTree = "<group>"; };
+		27805C4318018B2400CBBC93 /* T2E_GameElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_GameElement.h; sourceTree = "<group>"; };
+		27805C4418018B2400CBBC93 /* T2E_GameElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_GameElement.m; sourceTree = "<group>"; };
+		27805C4518018B2400CBBC93 /* T2E_GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_GameManager.h; sourceTree = "<group>"; };
+		27805C4618018B2400CBBC93 /* T2E_GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_GameManager.m; sourceTree = "<group>"; };
+		27805C4718018B2400CBBC93 /* T2E_GameElementContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_GameElementContainer.h; sourceTree = "<group>"; };
+		27805C4818018B2400CBBC93 /* T2E_GameElementContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_GameElementContainer.m; sourceTree = "<group>"; };
+		27805C4C1801919800CBBC93 /* T2E_TestGameContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_TestGameContainer.m; sourceTree = "<group>"; };
 		2780808D17F7411800992EAF /* Ton2e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ton2e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2780809017F7411800992EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2780809217F7411800992EAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,10 +110,6 @@
 		278080D417F7501A00992EAF /* T2E_Garden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_Garden.m; sourceTree = "<group>"; };
 		278080D717F7501A00992EAF /* T2E_Tondeuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_Tondeuse.h; sourceTree = "<group>"; };
 		278080D817F7501A00992EAF /* T2E_Tondeuse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_Tondeuse.m; sourceTree = "<group>"; };
-		278080DC17F7505200992EAF /* T2E_GameElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_GameElement.h; sourceTree = "<group>"; };
-		278080DD17F7505200992EAF /* T2E_GameElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_GameElement.m; sourceTree = "<group>"; };
-		278080E017F752A700992EAF /* T2E_GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2E_GameManager.h; sourceTree = "<group>"; };
-		278080E117F752A700992EAF /* T2E_GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2E_GameManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +175,53 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		271E47E9180B03B8000BF022 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				271E47E7180B03B0000BF022 /* TestScenario.txt */,
+			);
+			name = Ressources;
+			path = Ton2eTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		271E4831180B0930000BF022 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				271E482F180B092A000BF022 /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		271E4833180B0A75000BF022 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				271E4834180B0ABB000BF022 /* T2E_MainViewController.h */,
+				271E4835180B0ABB000BF022 /* T2E_MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27805C3A1801631500CBBC93 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				27805C39180161FD00CBBC93 /* T2E_GameContainer.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		27805C3C1801884200CBBC93 /* GameManagement */ = {
+			isa = PBXGroup;
+			children = (
+				27805C4318018B2400CBBC93 /* T2E_GameElement.h */,
+				27805C4418018B2400CBBC93 /* T2E_GameElement.m */,
+				27805C4518018B2400CBBC93 /* T2E_GameManager.h */,
+				27805C4618018B2400CBBC93 /* T2E_GameManager.m */,
+				27805C4718018B2400CBBC93 /* T2E_GameElementContainer.h */,
+				27805C4818018B2400CBBC93 /* T2E_GameElementContainer.m */,
+			);
+			path = GameManagement;
+			sourceTree = "<group>";
+		};
 		2780808417F7411800992EAF = {
 			isa = PBXGroup;
 			children = (
@@ -198,11 +259,14 @@
 		2780809617F7411800992EAF /* Ton2e */ = {
 			isa = PBXGroup;
 			children = (
+				271E4833180B0A75000BF022 /* Controller */,
+				271E4831180B0930000BF022 /* View */,
 				2703352917FDFB4E00B42F2C /* Logger */,
 				278080C317F74AC500992EAF /* Model */,
 				2780809F17F7411800992EAF /* T2E_AppDelegate.h */,
 				278080A017F7411800992EAF /* T2E_AppDelegate.m */,
 				278080A217F7411800992EAF /* Images.xcassets */,
+				271E47E9180B03B8000BF022 /* Ressources */,
 				2780809717F7411800992EAF /* Supporting Files */,
 			);
 			path = Ton2e;
@@ -240,12 +304,9 @@
 		278080C317F74AC500992EAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				278080DF17F750A200992EAF /* Action */,
+				27805C3C1801884200CBBC93 /* GameManagement */,
+				27805C3A1801631500CBBC93 /* Protocol */,
 				278080D217F74FCE00992EAF /* Elements */,
-				278080DC17F7505200992EAF /* T2E_GameElement.h */,
-				278080DD17F7505200992EAF /* T2E_GameElement.m */,
-				278080E017F752A700992EAF /* T2E_GameManager.h */,
-				278080E117F752A700992EAF /* T2E_GameManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,7 +315,9 @@
 			isa = PBXGroup;
 			children = (
 				278080D017F74ED100992EAF /* T2E_TestGarden.m */,
+				271E47E5180AE036000BF022 /* T2E_TestTondeuse.m */,
 				278080B517F7411900992EAF /* Ton2eTests.m */,
+				27805C4C1801919800CBBC93 /* T2E_TestGameContainer.m */,
 			);
 			path = ModelTest;
 			sourceTree = "<group>";
@@ -268,15 +331,6 @@
 				278080D817F7501A00992EAF /* T2E_Tondeuse.m */,
 			);
 			path = Elements;
-			sourceTree = "<group>";
-		};
-		278080DF17F750A200992EAF /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				2703352217F7538100B42F2C /* T2E_Order.h */,
-				2703352317F7538100B42F2C /* T2E_Order.m */,
-			);
-			path = Action;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,10 +409,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271E47EA180B05DE000BF022 /* TestScenario.txt in Resources */,
 				2703352617FDF72400B42F2C /* pom.xml in Resources */,
 				2780809B17F7411800992EAF /* InfoPlist.strings in Resources */,
 				2703352817FDF73900B42F2C /* sonar-project.properties in Resources */,
 				278080A317F7411800992EAF /* Images.xcassets in Resources */,
+				271E4832180B0A04000BF022 /* Storyboard.storyboard in Resources */,
 				27805C381800700C00CBBC93 /* .gitignore in Resources */,
 				2703354217FDFBA000B42F2C /* README.txt in Resources */,
 			);
@@ -368,7 +424,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271E47E8180B03B0000BF022 /* TestScenario.txt in Resources */,
 				278080B417F7411900992EAF /* InfoPlist.strings in Resources */,
+				271E4830180B092A000BF022 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,14 +437,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2703352417F7538100B42F2C /* T2E_Order.m in Sources */,
 				278080A117F7411800992EAF /* T2E_AppDelegate.m in Sources */,
 				278080D917F7501A00992EAF /* T2E_Garden.m in Sources */,
 				2780809D17F7411800992EAF /* main.m in Sources */,
-				278080DE17F7505200992EAF /* T2E_GameElement.m in Sources */,
 				2703353E17FDFBA000B42F2C /* DDLog.m in Sources */,
+				27805C4A18018B2400CBBC93 /* T2E_GameManager.m in Sources */,
 				2703353C17FDFBA000B42F2C /* DDASLLogger.m in Sources */,
-				278080E217F752A700992EAF /* T2E_GameManager.m in Sources */,
+				27805C4918018B2400CBBC93 /* T2E_GameElement.m in Sources */,
+				271E4836180B0ABB000BF022 /* T2E_MainViewController.m in Sources */,
+				27805C4B18018B2400CBBC93 /* T2E_GameElementContainer.m in Sources */,
 				2703353B17FDFBA000B42F2C /* DDAbstractDatabaseLogger.m in Sources */,
 				2703354017FDFBA000B42F2C /* ContextFilterLogFormatter.m in Sources */,
 				2703353F17FDFBA000B42F2C /* DDTTYLogger.m in Sources */,
@@ -402,6 +461,8 @@
 			files = (
 				278080D117F74ED100992EAF /* T2E_TestGarden.m in Sources */,
 				278080B617F7411900992EAF /* Ton2eTests.m in Sources */,
+				271E47E6180AE036000BF022 /* T2E_TestTondeuse.m in Sources */,
+				27805C4D1801919800CBBC93 /* T2E_TestGameContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "T2E_GameManager.h"
 @interface Ton2eTests : XCTestCase
 
 @end
@@ -25,9 +26,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testScenario
 {
-    //  XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    [[T2E_GameManager alloc ]initGameAndPlay:@"TestScenario"];
 }
 
 @end

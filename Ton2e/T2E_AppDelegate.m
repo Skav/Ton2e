@@ -19,17 +19,7 @@
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     
     [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
-    DDLogCVerbose(@"%@",@"Test vstring");
-    DDLogInfo(@"%@",@"Test istring");
-    DDLogCWarn(@"%@",@"Test wstring");
-    DDLogCError(@"%@",@"Test estring");
-    return YES;
+   return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

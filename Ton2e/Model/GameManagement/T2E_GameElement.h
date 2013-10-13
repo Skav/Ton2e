@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class T2E_GameElementContainer;
 
 @interface T2E_GameElement : NSObject
 
+-(void) registerContainer:(T2E_GameElementContainer *)container;
+-(void) unregisterContainer;
+-(T2E_GameElementContainer *)container;
 @end
