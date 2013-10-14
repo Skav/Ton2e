@@ -36,10 +36,7 @@
 
 + (instancetype) TondeuseWithString:(NSString *) sTondeuse AndGarden:(T2E_Garden *)oGarden{
     sTondeuse = [sTondeuse stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    NSString    *expression = [NSString stringWithFormat:@"[0-9]* [0-9]* [%@%@%@%@]",North,East,South,West];
-    NSPredicate *predicate  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", expression];
-    BOOL match = [predicate evaluateWithObject:sTondeuse];
-    if (match) {
+    if ([T2E_Tondeuse isValidConfigLineTondeuse:sTondeuse]) {
         NSArray * aCoordinates = [sTondeuse componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
         NSInteger iX = [[aCoordinates objectAtIndex:0] integerValue];
         NSInteger iY = [[aCoordinates objectAtIndex:1] integerValue];
@@ -235,5 +232,18 @@
 }
 -(NSString *)stringRepresentation{
     return [NSString stringWithFormat:@"%d %d %@", self.iX, self.iY, [T2E_Tondeuse stringWithOrientation: self.oOrientation]];
+}
+
+#pragma mark ConfigValidator
++ (BOOL)isValidConfigLineTondeuse:(NSString *)sConfig{
+    NSString    *expression = [NSString stringWithFormat:@"[0-9]* [0-9]* [%@%@%@%@]",North,East,South,West];
+    NSPredicate *predicate  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", expression];
+    return [predicate evaluateWithObject:sConfig];
+    
+}
++ (BOOL)isValidConfigLineOrders:(NSString *)sConfig{
+    NSString    *expression = [NSString stringWithFormat:@"[%@%@%@]*",Avance,Gauche,Droite];
+    NSPredicate *predicate  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", expression];
+    return [predicate evaluateWithObject:sConfig];
 }
 @end

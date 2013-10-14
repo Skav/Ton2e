@@ -28,10 +28,7 @@
 
 + (T2E_Garden *) GardenWithString:(NSString *)sGarden{
     sGarden = [sGarden stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    NSString    *expression = @"[0-9]* [0-9]*";
-    NSPredicate *predicate  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", expression];
-    BOOL match = [predicate evaluateWithObject:sGarden];
-    if (match) {
+    if ([T2E_Garden isValidConfigLine:sGarden]) {
         NSArray * aCoordinates = [sGarden componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
         NSInteger iMaxX = [[aCoordinates objectAtIndex:0] integerValue];
         NSInteger iMaxY = [[aCoordinates objectAtIndex:1] integerValue];
@@ -39,6 +36,13 @@
     }
     DDLogError(@"Bad format for Garden : %@",sGarden);
     return nil;
+}
+
+#pragma mark ConfigValidator
++ (BOOL)isValidConfigLine:(NSString *)sConfig{
+    NSString    *expression = @"[0-9]* [0-9]*";
+    NSPredicate *predicate  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", expression];
+    return[predicate evaluateWithObject:sConfig];
 }
 
 

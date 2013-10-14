@@ -34,13 +34,27 @@
             return nil;
         }
         self.oGarden = [T2E_Garden GardenWithString:[lines objectAtIndex:0]];
-        for (int i = 1; i< [lines count];) {
+       /* for (int i = 1; i< [lines count];) {
             T2E_Tondeuse *oNewTondeuse = [T2E_Tondeuse TondeuseWithString:[lines objectAtIndex:i] AndGarden:oGarden];
             i++;
             [oNewTondeuse addOrdersWithString:[lines objectAtIndex:i]];
             [oNewTondeuse executeStack:YES];
             i++;
         }
+        */
+        if (self.oGarden != nil){
+            int i = 1;
+            while ([T2E_Tondeuse isValidConfigLineTondeuse:[lines objectAtIndex:i]] && i<([lines count]-1)){
+                T2E_Tondeuse *oNewTondeuse = [T2E_Tondeuse TondeuseWithString:[lines objectAtIndex:i] AndGarden:oGarden];
+                i++;
+                while ([T2E_Tondeuse isValidConfigLineOrders:[lines objectAtIndex:i]]&& i<([lines count]-1)) {
+                    [oNewTondeuse addOrdersWithString:[lines objectAtIndex:i]];
+                    [oNewTondeuse executeStack:YES];
+                    i++;
+                }
+            }
+        }
+        
 
     }
     return self;

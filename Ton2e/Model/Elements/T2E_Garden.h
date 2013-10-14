@@ -30,8 +30,8 @@
 + (T2E_Garden *) GardenWithMaxX:(NSInteger)iMaxX andMaxY:(NSInteger)iMaxY;
 + (T2E_Garden *) GardenWithString:(NSString *)sGarden;
 
-
-
+#pragma mark ConfigValidator
++ (BOOL)isValidConfigLine:(NSString *)sConfig;
 #pragma mark Constructor
 /**
  * Return an instance of a Garden with the specified size.
@@ -68,7 +68,6 @@
 - (BOOL) removeTondeuse:(T2E_Tondeuse *) uselessTondeuse;
 /**
  * Return an array of Tondeuse
-
  * @return An Array Of Tondeuse
  */
 - (NSArray *) getTondeuses;

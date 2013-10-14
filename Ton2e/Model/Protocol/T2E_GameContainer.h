@@ -9,15 +9,25 @@
 #import <Foundation/Foundation.h>
 
 /**
- *
  * Protocol for Containers
  */
 @protocol T2E_GameContainer <NSObject>
 
 @required
-
+/**
+ * Add a new object in this container
+ * @param _gameElement to add
+ */
 - (void) registerGameElement: (T2E_GameElement *)_gameElement;
+/**
+ * Remove an object in this container
+ * @param _gameElement to remove
+ */
 - (void) unregisterGameElement: (T2E_GameElement *)_gameElement;
+/**
+ * Return the list of Game Elements contained in the Container
+ * @return an array of GameElements
+ */
 - (NSArray *) getGameElements;
 
 @optional
