@@ -28,7 +28,9 @@
 
 - (void)testScenario
 {
-    [[T2E_GameManager alloc ]initGameAndPlay:@"TestScenario"];
+    T2E_GameManager *game = [[T2E_GameManager alloc ]initGameAndPlay:@"TestScenario"];
+    XCTAssertEqualObjects([game getResults], @"1 3 N\n5 1 E", @"bad result: %@",[game getResults]);
+
 }
 
 @end

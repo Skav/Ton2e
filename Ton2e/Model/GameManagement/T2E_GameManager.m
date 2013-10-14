@@ -44,17 +44,17 @@
         */
         if (self.oGarden != nil){
             int i = 1;
-            while ([T2E_Tondeuse isValidConfigLineTondeuse:[lines objectAtIndex:i]] && i<([lines count]-1)){
+            int maxI = [lines count]-1;
+            while (i<=maxI && [T2E_Tondeuse isValidConfigLineTondeuse:[lines objectAtIndex:i]]){
                 T2E_Tondeuse *oNewTondeuse = [T2E_Tondeuse TondeuseWithString:[lines objectAtIndex:i] AndGarden:oGarden];
                 i++;
-                while ([T2E_Tondeuse isValidConfigLineOrders:[lines objectAtIndex:i]]&& i<([lines count]-1)) {
+                while (i<=maxI && [T2E_Tondeuse isValidConfigLineOrders:[lines objectAtIndex:i]]) {
                     [oNewTondeuse addOrdersWithString:[lines objectAtIndex:i]];
                     [oNewTondeuse executeStack:YES];
                     i++;
                 }
             }
         }
-        
 
     }
     return self;
